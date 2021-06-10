@@ -14,7 +14,7 @@ public class TestProgram
     [SetUp]
     public void SetupTest()
     {
-        // check this path
+        // change this path
         driver = new ChromeDriver("/Users/dimas/Works/XMileComputer/libs/driver");
         driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(6000);
         driver.Url = "https://the-internet.herokuapp.com/javascript_alerts";
